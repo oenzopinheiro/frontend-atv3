@@ -34,7 +34,8 @@
     padding: 10px;
     background: #C919B9;
     border-radius: 6px;
-} .text1{
+}
+ .text1{
    margin-left: 40px; 
 } .contact{
     width: 145px;
@@ -278,4 +279,85 @@ margin: auto;
     margin: auto;
 
 
+} 
+
+
+
+@media(max-width: 600px) {
+    .container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } .menu ul{
+        gap: 10px;
+        align-items: center;
+    } .menu ul li a{
+        font-size: 20px;
+    
+    } .button-one{
+        padding: 3px;
+    } .square1{
+        width: 100%;
+    } .title2{
+        font-size: 15px;
+        font-weight: 700;
+    }.title3{
+        font-size: 12px;
+        font-weight: 300;
+    } .categorie{
+        font-size: 10px;
+    } .img_set{
+        width: 270px;
+        margin-top: 30px;
+    } #div-container-three{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    } .h1_set{
+        font-size: 15px;
+    } .span_set{
+        font-size: 10px;
+    } .div-three{
+        display: flex;
+        justify-content: center;
+    } .container5{
+        width: 100%;
+        height: 100%;
+
+    } .textemail{
+        margin-top: 15px;
+        margin-left: 0px;
+        font-size: 20px;
+        font-weight: 700;
+        text-align: center;
+    }.input{
+        margin-left: 0px;
+    }.checkbox{
+        margin-left: 0px;
+
+    }.textcheckbox{
+        font-weight: 300;
+    }.button{
+        margin-left: 0px;
+    }.container3{
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+    }.name{
+        font-weight: 700;
+        line-height: 30.4px;
+font-size: 23px;
+    }.paragraph{
+        font-size: 17px;
+    } .texts{
+        font-size: 24px;
+    } .blog{
+        font-size: 14px;
+    }.Sobre{
+        font-size: 14px;
+    }.proposta{
+        font-size: 14px;
+    }
 }
